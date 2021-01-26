@@ -1,0 +1,53 @@
+body {
+    background-color:rgb(180, 214, 228);
+    padding:0;
+}
+
+
+.header {
+    height:95vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-size:25px;
+}
+
+.title {
+    color:rgb(70, 68, 75);
+    font-family:'Fredoka One';
+}
+
+.main {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-size:30px;
+    padding-left:0;
+    color:rgb(189, 109, 109);
+    font-family:'Do Hyeon';
+}
+
+.btn {
+    cursor:pointer;
+    transition:ease 200ms;
+}
+
+.btn:hover {
+    transform:scale(1.3);
+    color:rgb(71, 113, 231);
+}
+
+li {
+    list-style:none;
+    margin:12px;
+}
+
+.footer {
+    padding-top:50px;
+    text-align:center;
+    font-size:16px;
+    font-family:'Fredoka One';
+    color:rgb(124, 121, 121)
+}
